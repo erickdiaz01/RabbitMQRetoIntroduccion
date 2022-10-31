@@ -1,0 +1,10 @@
+spring:
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: erickdiaz
+      password: sofka2022
+broker:
+  rabbitmq:
+    exchange: sofka.exchange
+    routingkey: sofka.routingkey
